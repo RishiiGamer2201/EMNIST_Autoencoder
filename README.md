@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Task Overview
+## Task Overview
 
 An **autoencoder** is a neural network trained to compress an image into a small vector (the *latent code*), and then reconstruct the original image from that code. The smaller the code, the more the model has "understood" the underlying structure of the data.
 
@@ -69,7 +69,7 @@ EMNIST_Autoencoder/
 
 ---
 
-## 🚀 Setup & Run
+## Setup & Run
 
 ```bash
 # 1. Clone the repository
@@ -106,7 +106,7 @@ Even though the model is **never given class labels during training**, the t-SNE
 
 ---
 
-## 🔧 Training Details
+## Training Details
 
 | Setting | Value |
 |---------|-------|
@@ -120,7 +120,7 @@ Even though the model is **never given class labels during training**, the t-SNE
 
 ---
 
-## 📚 Concepts Covered
+## Concepts Covered
 
 - **Autoencoder architecture** (Encoder → Latent → Decoder)
 - **Fully Connected (ANN) vs Convolutional (CNN)** autoencoders
