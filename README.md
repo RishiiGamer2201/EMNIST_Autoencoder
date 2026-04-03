@@ -73,7 +73,7 @@ EMNIST_Autoencoder/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/EMNIST_Autoencoder.git
+git clone https://github.com/RishiiGamer2201/EMNIST_Autoencoder.git
 cd EMNIST_Autoencoder
 
 # 2. Install dependencies
