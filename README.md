@@ -1,7 +1,7 @@
-# 🔬 EMNIST Autoencoder — Image Compression & Reconstruction
+# EMNIST Autoencoder - Image Compression & Reconstruction
 
 > **Assignment:** Build autoencoder models from scratch in PyTorch on the EMNIST Letters dataset  
-> **Dataset:** [EMNIST Letters](https://www.kaggle.com/datasets/crawford/emnist) — 26 handwritten letter classes, 28×28 greyscale  
+> **Dataset:** [EMNIST Letters](https://www.kaggle.com/datasets/crawford/emnist) - 26 handwritten letter classes, 28×28 greyscale  
 > **Author:** Rishii Kumar Singh
 
 ---
@@ -26,7 +26,7 @@ Training goal: minimise MSE(input, reconstruction)
 
 ---
 
-## 🏗️ Models Built (All From Scratch)
+## Models Built (All From Scratch)
 
 | Model | Type | Bottleneck | Parameters | Val MSE |
 |-------|------|-----------|-----------|---------|
@@ -35,11 +35,11 @@ Training goal: minimise MSE(input, reconstruction)
 | CNN-1 | Convolutional (Lightweight) | 32 | **45K** | 0.00584 |
 | **CNN-2** | **Deep CNN + BN** | **64** | 459K | **0.00192 ★** |
 
-**Key finding:** CNN-1 (45K params) beats ANN-2 (1,153K params) — **25× fewer parameters, better quality** — because convolutions exploit spatial structure.
+**Key finding:** CNN-1 (45K params) beats ANN-2 (1,153K params) - **25× fewer parameters, better quality** - because convolutions exploit spatial structure.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 EMNIST_Autoencoder/
